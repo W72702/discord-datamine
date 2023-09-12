@@ -1,0 +1,21 @@
+{
+  "data": {
+    "kind": "user",
+    "id": "2022-12_forum_activity",
+    "label": "Increased activity view for Forums, per user",
+    "description": [
+      "Not Eligible",
+      "Control Bucket",
+      "Treatment 1: Enabled"
+    ],
+    "hash": 828081447,
+    "buckets": [
+      -1,
+      0,
+      1
+    ],
+    "config_keys": [
+      "enabled"
+    ]
+  }
+}

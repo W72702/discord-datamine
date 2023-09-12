@@ -1,0 +1,21 @@
+{
+  "data": {
+    "kind": "user",
+    "id": "2023-04_birthday_activities_jamspace_tile",
+    "label": "Birthday Activities Whats New Jamspace Tile",
+    "description": [
+      "Not Eligible",
+      "Control Bucket",
+      "Treatment 1: Enable Jamspace tile"
+    ],
+    "hash": 3742269191,
+    "buckets": [
+      -1,
+      0,
+      1
+    ],
+    "config_keys": [
+      "enabled"
+    ]
+  }
+}

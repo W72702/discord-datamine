@@ -1,0 +1,21 @@
+{
+  "data": {
+    "kind": "user",
+    "id": "2021-07_popout_autocomplete",
+    "label": "Popout Autocomplete experiment",
+    "description": [
+      "Not Eligible",
+      "Control Bucket",
+      "Treatment 1: New autocomplete style"
+    ],
+    "hash": 1900424093,
+    "buckets": [
+      -1,
+      0,
+      1
+    ],
+    "config_keys": [
+      "enabled"
+    ]
+  }
+}

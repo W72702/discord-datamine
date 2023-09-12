@@ -1,0 +1,33 @@
+{
+  "data": {
+    "kind": "guild",
+    "hash": 3832113202
+  },
+  "rollout": {
+    "populations": [
+      {
+        "buckets": {
+          "none": {
+            "rollout": [
+              {
+                "start": 0,
+                "end": 10000
+              }
+            ]
+          }
+        },
+        "filters": []
+      }
+    ],
+    "revision": 4,
+    "overrides": {
+      "0": [
+        "814669604840013874"
+      ],
+      "2": [
+        "662267976984297473"
+      ]
+    },
+    "overrides_formatted": []
+  }
+}

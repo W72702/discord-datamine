@@ -1,0 +1,21 @@
+{
+  "data": {
+    "kind": "user",
+    "id": "2023-01_silent_messages",
+    "label": "Silent Messages",
+    "description": [
+      "Not Eligible",
+      "Control Bucket",
+      "Treatment 1: Allow sending @silent messages"
+    ],
+    "hash": 183688925,
+    "buckets": [
+      -1,
+      0,
+      1
+    ],
+    "config_keys": [
+      "enabled"
+    ]
+  }
+}

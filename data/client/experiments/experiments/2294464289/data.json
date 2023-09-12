@@ -1,0 +1,21 @@
+{
+  "data": {
+    "kind": "user",
+    "id": "2022-08_home_badge",
+    "label": "Show badge on home channel",
+    "description": [
+      "Not Eligible",
+      "Control Bucket",
+      "Treatment 1: show badge"
+    ],
+    "hash": 2294464289,
+    "buckets": [
+      -1,
+      0,
+      1
+    ],
+    "config_keys": [
+      "showBadge"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "data": {
+    "kind": "user",
+    "id": "2023-03_april_fools",
+    "label": "April Fools 2023",
+    "description": [
+      "Not Eligible",
+      "Control Bucket",
+      "Treatment 1: April Fools 2023"
+    ],
+    "hash": 3971730794,
+    "buckets": [
+      -1,
+      0,
+      1
+    ],
+    "config_keys": [
+      "allowAprilFoolsSoundpack"
+    ]
+  }
+}

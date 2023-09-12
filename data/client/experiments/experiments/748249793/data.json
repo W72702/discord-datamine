@@ -1,0 +1,64 @@
+{
+  "data": {
+    "kind": "guild",
+    "id": "2023-02_onboarding_home_admin",
+    "label": "[ADMIN] Home as a community onboarding surface",
+    "description": [
+      "Not Eligible",
+      "Control Bucket",
+      "Treatment 1: Show the Onboarding Version of Home in Admin Settings"
+    ],
+    "hash": 748249793,
+    "buckets": [
+      -1,
+      0,
+      1
+    ],
+    "config_keys": [
+      "homeSettingsEnabled"
+    ]
+  },
+  "rollout": {
+    "populations": [
+      {
+        "buckets": {
+          "1": {
+            "rollout": [
+              {
+                "start": 0,
+                "end": 5000
+              },
+              {
+                "start": 5000,
+                "end": 10000
+              }
+            ]
+          }
+        },
+        "filters": [
+          {
+            "type": "guild_in_range_by_hash",
+            "hash_key": 748249793,
+            "target": 10000
+          }
+        ]
+      },
+      {
+        "buckets": {
+          "none": {
+            "rollout": [
+              {
+                "start": 0,
+                "end": 10000
+              }
+            ]
+          }
+        },
+        "filters": []
+      }
+    ],
+    "revision": 0,
+    "overrides": {},
+    "overrides_formatted": []
+  }
+}

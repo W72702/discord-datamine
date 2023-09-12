@@ -1,0 +1,21 @@
+{
+  "data": {
+    "kind": "user",
+    "id": "2021-02_staff_qc_debugging",
+    "label": "Display QS scores in results. Not a real experiment",
+    "description": [
+      "Not Eligible",
+      "Control Bucket",
+      "Treatment 1: Show scores in QS results"
+    ],
+    "hash": 2847059306,
+    "buckets": [
+      -1,
+      0,
+      1
+    ],
+    "config_keys": [
+      "enabled"
+    ]
+  }
+}

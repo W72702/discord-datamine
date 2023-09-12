@@ -1,0 +1,53 @@
+{
+  "data": {
+    "kind": "guild",
+    "id": "2023-08_guild_member_bulk_ban_experiment",
+    "label": "Bulk Banning Guild Members Experiment",
+    "description": [
+      "Not Eligible",
+      "Control Bucket",
+      "Treatment 1: Bulk Banning Enabled"
+    ],
+    "hash": 2119968730,
+    "buckets": [
+      -1,
+      0,
+      1
+    ],
+    "config_keys": [
+      "enabled"
+    ]
+  },
+  "rollout": {
+    "populations": [
+      {
+        "buckets": {
+          "none": {
+            "rollout": [
+              {
+                "start": 0,
+                "end": 10000
+              }
+            ]
+          }
+        },
+        "filters": []
+      }
+    ],
+    "revision": 0,
+    "overrides": {
+      "1": [
+        "651595875897835540",
+        "435572461912719360",
+        "1011408760490692768",
+        "763838479293349899",
+        "991365865532575844",
+        "816784679717044276",
+        "809846768074227723",
+        "1149072796383711313",
+        "987012965834297405"
+      ]
+    },
+    "overrides_formatted": []
+  }
+}

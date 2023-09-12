@@ -1,0 +1,21 @@
+{
+  "data": {
+    "kind": "user",
+    "id": "2023-03_store_latest_message_data",
+    "label": "Store latest message data",
+    "description": [
+      "Not Eligible",
+      "Control Bucket",
+      "Treatment 1: Use latest data from api/gateway"
+    ],
+    "hash": 1617749743,
+    "buckets": [
+      -1,
+      0,
+      1
+    ],
+    "config_keys": [
+      "enabled"
+    ]
+  }
+}
