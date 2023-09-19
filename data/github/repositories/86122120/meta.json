@@ -29,7 +29,7 @@
   "url": "https://api.github.com/repos/discord/lilliput",
   "created_at": "2017-03-25T00:46:39Z",
   "homepage": "https://blog.discordapp.com/how-discord-resizes-150-million-images-every-day-with-go-and-c-c9e98731c65d",
-  "size": 194757,
+  "size": 212740,
   "language": "C++",
   "has_issues": true,
   "has_projects": false,
