@@ -1,14 +1,14 @@
 {
   "data": {
     "kind": "user",
-    "id": "2023-05_lock_icon",
-    "label": "Checkout Lock Icon",
+    "id": "2023-09_collectibles_marketing_page",
+    "label": "Collectibles Marketing Page",
     "description": [
       "Not Eligible",
       "Control Bucket",
       "Treatment 1: Enabled"
     ],
-    "hash": 853908483,
+    "hash": 1645732717,
     "buckets": [
       -1,
       0,

@@ -219,6 +219,7 @@ id,hash,label
 2023-07_clyde_ai_proactive_guilds,3041932109,Proactive Clyde
 2023-07_domain_connection,3495789820,Domain Connection
 2023-07_friend_finder_auto_redirect_invite,197619742,Friend Finder Auto Redirect Invite Experiment
+2023-07_guild_members_search_in_elasticsearch,386483746,Members Search V2 Experiment
 2023-07_h265_for_windows_with_nvidia,4193500328,Test how h265 works on Windows with Nvidia nvenc codec
 2023-07_iframe_modal,135503004,iFrame Modal
 2023-07_member_safety_non_community,581929451,Members Safety Non Community Experiment
@@ -239,6 +240,7 @@ id,hash,label
 2023-08_full_band_krisp_android_,2791827263,Let us control if full band is enabled on Android
 2023-08_guild_alert_mode_friend_server,2225390567,Guild Alert Mode (friend servers only)
 2023-08_guild_member_bulk_ban_experiment,2119968730,Bulk Banning Guild Members Experiment
+2023-08_guild_member_mod_view,2342285461,Guild Member Mod View
 2023-08_guild_usage_survey,1468919041,Guild Usage Survey
 2023-08_iar_fraud_impersonation,868088545,In App Reports Fruad & Impersonation
 2023-08_iframe_modal_guild,3482606388,iFrame Modal guild experiment
@@ -263,10 +265,19 @@ id,hash,label
 2023-08_user_apps,825618208,Allow user app commands
 2023-08_video_quality_measurement_v1,2496837643,Video Quality Measurement
 2023-08_whats_new,1745832462,What's New
+2023-09_activity_bobble_bash_upsell,3892100904,Activity Bobble Bash Upsell
 2023-09_activity_shelf_order,677690720,Activity Shelf Order
 2023-09_client_theme_coachmark_reintro,1017818703,Experiment to reintroduce the client themes experiment
+2023-09_collectibles_marketing_page,1645732717,Collectibles Marketing Page
 2023-09_decoupled_game_clipping,1366927696,Test decoupled game clipping
 2023-09_gaming_stats_prompt_guild,2478854553,Gaming stats prompt
+2023-09_gaming_stats_setup,3080965400,Gaming stats exposure setup
+2023-09_guild_events_improvements,2181787089,Experiments with various improvements to our events system
+2023-09_member_safety_release_coachmark,1865413295,Members Safety Release Coachmark Experiment
 2023-09_mobile_redesign_hfu,3033100557,Tabs V2 - HFU Iteration
+2023-09_server_shop_phantom_preview,759064140,Server Shop Phantom Preview
 2023-09_show_server_sub_in_server_shop,1680860120,Show server sub in server shop
 2023-09_soundmoji,2773988864,Soundmoji
+2023-09_whats_new_drop_1_flip,1584455515,What's New Drop 1
+2023-09_whats_new_drop_2_flip,2396169737,What's New Drop 2
+2023-09_whats_new_phase_2,2757471822,What's New Phase 2

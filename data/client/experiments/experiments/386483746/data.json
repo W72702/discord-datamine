@@ -1,14 +1,14 @@
 {
   "data": {
     "kind": "guild",
-    "id": "2023-05_guild_member_safety_experiment",
-    "label": "Guild Member Safety Experiment",
+    "id": "2023-07_guild_members_search_in_elasticsearch",
+    "label": "Members Search V2 Experiment",
     "description": [
       "Not Eligible",
       "Control Bucket",
-      "Treatment 1: Guild Member Safety Experiment"
+      "Treatment 1: Enable Members Search V2"
     ],
-    "hash": 603648674,
+    "hash": 386483746,
     "buckets": [
       -1,
       0,
@@ -22,7 +22,7 @@
     "populations": [
       {
         "buckets": {
-          "1": {
+          "none": {
             "rollout": [
               {
                 "start": 0,
@@ -31,17 +31,10 @@
             ]
           }
         },
-        "filters": [
-          {
-            "type": "guild_has_feature",
-            "features": [
-              "COMMUNITY"
-            ]
-          }
-        ]
+        "filters": []
       }
     ],
-    "revision": 7,
+    "revision": 0,
     "overrides": {},
     "overrides_formatted": [
       {
@@ -57,9 +50,10 @@
         },
         "filters": [
           {
-            "type": "guild_has_feature",
-            "features": [
-              "MEMBER_SAFETY_PAGE_ROLLOUT"
+            "type": "guild_ids",
+            "ids": [
+              "1147329472345931796",
+              "942897714956472401"
             ]
           }
         ]
