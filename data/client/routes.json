@@ -889,10 +889,6 @@
       "OPTIONS"
     ]
   },
-  "COLLECTIBLES_ASSET": {
-    "url": "/applications/1096190356233670716/app-assets/:param.:param",
-    "allowed_methods": null
-  },
   "GUILD_MEMBER_BANNER": {
     "url": "/guilds/:param/users/:param/banners/:param.:param",
     "allowed_methods": null
@@ -2818,6 +2814,10 @@
       "OPTIONS"
     ]
   },
+  "APPLICATION_ASSET": {
+    "url": "/applications/:param/app-assets/:param.:param",
+    "allowed_methods": null
+  },
   "HYPESQUAD_ONLINE": {
     "url": "/hypesquad/online",
     "allowed_methods": [
@@ -2892,6 +2892,10 @@
       "POST"
     ]
   },
+  "PARTNER_PROMOTIONS": {
+    "url": "/entitlements/partner-promotions/:param",
+    "allowed_methods": null
+  },
   "USER_GIFT_CODE_CREATE": {
     "url": "/users/@me/entitlements/gift-codes",
     "allowed_methods": [
@@ -2931,6 +2935,17 @@
       "OPTIONS",
       "POST"
     ]
+  },
+  "USER_OFFER": {
+    "url": "/users/@me/billing/user-offer",
+    "allowed_methods": [
+      "OPTIONS",
+      "POST"
+    ]
+  },
+  "USER_OFFER_ACKNOWLEDGED": {
+    "url": "/users/@me/billing/user-offer/ack",
+    "allowed_methods": null
   },
   "GUILD_DISCOVERY": {
     "url": "/discoverable-guilds",
@@ -4460,6 +4475,13 @@
     "allowed_methods": [
       "OPTIONS",
       "POST"
+    ]
+  },
+  "UPDATE_GAMING_STATS": {
+    "url": "/:param/:param/update-gaming-stats",
+    "allowed_methods": [
+      "OPTIONS",
+      "PATCH"
     ]
   },
   "BULK_GUILD_BAN": {
